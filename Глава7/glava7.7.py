@@ -1,4 +1,5 @@
 
 things = ["mozzarella" , "cinderella" , "salmonella"]
-things[1] = things[1].capitalize()
+things.remove('salmonella')
+#del things[-1]
 print(things)
